@@ -1,0 +1,25 @@
+.progress-bar {
+    width: 100%;
+    background-color: #666;
+    border-radius: 2px;
+}
+
+.progress-bar .content {
+    height: 4px;
+    width: 0;
+    background-color: #ffffff;
+}
+
+.active {
+    animation: progress infinite;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

@@ -12,3 +12,23 @@
   font-size: 28px;
   font-weight: 400;
 }
+
+.content {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.iphone {
+  color: #ffffff;
+  background-image: url("./assets/iphone.png");
+}
+
+.tablet {
+  background-image: url("./assets/tablet.png");
+}
+
+.airPods {
+  background-image: url("./assets/airpods.png");
+}
